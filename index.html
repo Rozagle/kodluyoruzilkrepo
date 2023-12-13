@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./projeN/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    a
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>başvuru formu</title>
+  </head>
+  <body>
+
+
+
+  <form>
+    <div class="card mt-3">
+      <div class="card-header text-white important!"
+        style="background-color: #800000; border-radius: 20px 20px 20px 20px"
+      >
+        <div class="row">
+          <div>
+            <h3
+              class="card-title w-200 text-center"
+              style="font-weight: 800 ; text-transform: uppercase ; Width:100%"
+            >
+            <b>İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ<br/> ETİK KURUL BAŞVURU FORMU </b>
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body pt-3">
+        <div class="row">
+          <div class="col-md-12 mt-3">
+            <input
+              class="form-control adsoyad"
+              type="text"
+              id="name-surname"
+              placeholder="Ad Soyad" required
+            />
+          </div>
+
+          <div class="col-md-12 mt-3">
+            <input
+              class="form-control adsoyad"
+              type="text"
+              id="tc-kimlik"
+              placeholder="TC Kimlik Numarası" required
+            />
+          </div>
+
+          <div class="col-md-12 mt-3">
+            <input
+              class="form-control studentid "
+              type="text"
+              placeholder="Öğrenci Numarası" required
+            />
+          </div>
+
+        
+          <div class="col-md-12 mt-3">
+
+
+            <div>
+              <label  for="basvuru-form">Başvuru Formu</label>
+  
+              <input type="file" accept="application/pdf" id="basvuru-form">
+
+            </div>
+
+            <div>
+              <label  for="gonullu-onam-form"> Gönüllü Onam Formu</label>
+  
+            <input  type="file" accept="application/pdf" id="gonullu-onam-form">
+
+            </div>
+  
+            <div>
+              <label  for="olcek-izinleri-formu">Ölçek İzinleri Formu</label>
+  
+              <input  type="file" accept="application/pdf" id="olcek-izinleri-formu">
+            </div>
+
+            <div>
+              <label  for="anket-form">Anket Formu </label>
+ 
+              <input  type="file" accept="application/pdf" id="anket-form">
+            </div>
+
+
+            <a  href="https://www.nisantasi.edu.tr/Uploads/LE_FR.17%20et%C4%B0k%20kurul%20ba%C5%9Evuru%20formu.docx">Başvuru formuna ulaşmak için tıklayınız</a>
+          </div>
+
+          <div class="col-md-12 mt-3">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember" class="kvkk" />
+
+              <label class="text-info" for="remember" style="cursor: pointer">
+                <a
+                  data-toggle="modal"
+                  data-target="#modal-lg-kvk"
+                  style="font-weight: normal; color: #000; font-size: 14px"
+                  >Kişisel verilerin işlenmesi ve korunmasına yönelik aydınlatma
+                  metnini okudum, onaylıyorum.</a
+                >
+              </label>
+            </div>
+          </div>
+
+         
+          <div class="col-md-12 mt-3 d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-block btn-flat text-bold text-white w-50 form_gonder_btn"
+              style="background-color: green; border-radius: 40px"
+            >
+              FORMU GÖNDER
+            </button>
+          </div>
+      </div>
+    </div>
+ 
+</form>
+  </body>
+</html>
