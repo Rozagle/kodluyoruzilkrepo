@@ -5,8 +5,9 @@ Bu repo Kodluyoruz Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde
 
 
 github
+[github](https://github.com/Rozagle/kodluyoruzilkrepo/assets/149897112/284d60d8-6cce-4299-b6fb-de382ffb1024)
 
-Installation![github](https://github.com/Rozagle/kodluyoruzilkrepo/assets/149897112/284d60d8-6cce-4299-b6fb-de382ffb1024)
+Installation!
 
 Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
 
